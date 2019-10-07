@@ -13,3 +13,8 @@ Extra Features for future updates:
 3. Have the device vibrate at the end of the timers
 4. Collect lifetime data features, such as: Total weight lifted since using the app is 10,580 pounds
 5. (Any new ideas or suggestions go here).
+
+***Update October 6, 2019***
+* Unknown issues with the project. 
+* Renaming the project to Pump.
+* content will change in the the model repository to reflect the placeholder content 
