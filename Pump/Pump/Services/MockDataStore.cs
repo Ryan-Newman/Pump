@@ -14,12 +14,12 @@ namespace Pump.Services
         {
             items = new List<Item>()
             {
-                new Item { Id = Guid.NewGuid().ToString(), Text = "First item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Second item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Third item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fourth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fifth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." }
+                new Item { Id = Guid.NewGuid().ToString(), Text = "First Routine", Description="This is the first custom Routine." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Second item", Description="This is the second custom Routine." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Third item", Description="This is the third custom Routine." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Fourth item", Description="This is the fourth custom Routine." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Fifth item", Description="This is the fifth custom Routine." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is the sixth custom Routine." }
             };
         }
 
