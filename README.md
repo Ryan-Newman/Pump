@@ -18,3 +18,7 @@ Extra Features for future updates:
 * Unknown issues with the project. 
 * Renaming the project to Pump.
 * content will change in the the model repository to reflect the placeholder content 
+
+***Update October 14, 2019***
+* Plan to add in a Adobe XD document to the Readme to show a visual of how the app should look.
+* Updating the Projects tab for the KanBan
