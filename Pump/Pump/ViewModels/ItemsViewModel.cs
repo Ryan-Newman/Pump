@@ -17,7 +17,7 @@ namespace Pump.ViewModels
 
         public ItemsViewModel()
         {
-            Title = "Browse";
+            Title = "New Routine";
             Items = new ObservableCollection<Item>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 

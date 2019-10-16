@@ -20,7 +20,8 @@ namespace Pump.Views
 
             menuItems = new List<HomeMenuItem>
             {
-                new HomeMenuItem {Id = MenuItemType.Browse, Title="Browse" },
+                new HomeMenuItem {Id = MenuItemType.NewRoutine, Title="New Routine" },
+                new HomeMenuItem {Id = MenuItemType.CurrentRoutine, Title="Current Routines" },
                 new HomeMenuItem {Id = MenuItemType.About, Title="About" }
             };
 

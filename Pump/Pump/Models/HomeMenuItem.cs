@@ -6,7 +6,8 @@ namespace Pump.Models
 {
     public enum MenuItemType
     {
-        Browse,
+        NewRoutine,
+        CurrentRoutine,
         About
     }
     public class HomeMenuItem
