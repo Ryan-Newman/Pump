@@ -21,8 +21,8 @@ namespace Pump.Views
 
             Item = new Item
             {
-                Text = "Item name",
-                Description = "This is an item description."
+                Text = "Routine name",
+                Description = "Routines description."
             };
 
             BindingContext = this;

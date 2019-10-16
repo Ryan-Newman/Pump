@@ -21,7 +21,9 @@ namespace Pump.Views
 
             MasterBehavior = MasterBehavior.Popover;
 
-            MenuPages.Add((int)MenuItemType.Browse, (NavigationPage)Detail);
+            MenuPages.Add((int)MenuItemType.NewRoutine, (NavigationPage)Detail);
+            MenuPages.Add((int)MenuItemType.CurrentRoutine, (NavigationPage)Detail);
+
         }
 
         public async Task NavigateFromMenu(int id)
@@ -30,7 +32,10 @@ namespace Pump.Views
             {
                 switch (id)
                 {
-                    case (int)MenuItemType.Browse:
+                    case (int)MenuItemType.NewRoutine:
+                        MenuPages.Add(id, new NavigationPage(new ItemsPage()));
+                        break;
+                    case (int)MenuItemType.CurrentRoutine:
                         MenuPages.Add(id, new NavigationPage(new ItemsPage()));
                         break;
                     case (int)MenuItemType.About:

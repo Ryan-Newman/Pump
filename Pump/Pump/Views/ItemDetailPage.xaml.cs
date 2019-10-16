@@ -28,8 +28,8 @@ namespace Pump.Views
 
             var item = new Item
             {
-                Text = "Item 1",
-                Description = "This is an item description."
+                Text = "Custom Routine 1",
+                Description = "This is the routine's description."
             };
 
             viewModel = new ItemDetailViewModel(item);
