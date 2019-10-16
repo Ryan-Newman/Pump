@@ -22,3 +22,10 @@ Extra Features for future updates:
 ***Update October 14, 2019***
 * Plan to add in a Adobe XD document to the Readme to show a visual of how the app should look.
 * Updating the Projects tab for the KanBan
+
+***Update October 15, 2019***
+* Made changes in staging with the detailed tabs:
+  * Changed the name of Browse in the tab to New Routines
+  * Added a tab named Current Routines
+  * Added Current Routines to the switch statement as a case, defualting to the same content as New Routine
+* Need to update some more values, at the moment more learning is required.
