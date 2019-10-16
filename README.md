@@ -18,3 +18,11 @@ Extra Features for future updates:
 * Unknown issues with the project. 
 * Renaming the project to Pump.
 * content will change in the the model repository to reflect the placeholder content 
+
+***Update October 15, 2019***
+* Made changes in staging with the detailed tabs:
+  * Changed the name of Browse in the tab to New Routines
+  * Added a tab named Current Routines
+  * Added Current Routines to the switch statement as a case, defualting to the same content as New Routine
+* Need to update some more values, at the moment more learning is required.
+
